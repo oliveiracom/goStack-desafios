@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< HEAD:LVL 02/fundamentos-node-typescript/jest.config.js
 module.exports = {
   // All imported modules in your tests should be mocked automatically
@@ -185,6 +186,8 @@ module.exports = {
   // watchman: true,
 };
 =======
+=======
+>>>>>>> e6014c1aa8f2b0c8f3e1aed55dd704d0150d7138
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
 
@@ -377,4 +380,7 @@ module.exports = {
   // Whether to use watchman for file crawling
   // watchman: true,
 };
+<<<<<<< HEAD
 >>>>>>> e6014c1aa8f2b0c8f3e1aed55dd704d0150d7138:jest.config.js
+=======
+>>>>>>> e6014c1aa8f2b0c8f3e1aed55dd704d0150d7138
