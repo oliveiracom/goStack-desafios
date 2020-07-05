@@ -63,7 +63,7 @@ class TransactionsRepository {
       income: types['income'],
       outcome: types['outcome'],
       total: types['income'] - types['outcome']
-    }*/
+    } */
 
     const result = this.transactions.map(item => {
       if(item['type'] === 'income') {
