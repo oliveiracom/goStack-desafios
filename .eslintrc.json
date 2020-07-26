@@ -19,6 +19,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
+<<<<<<< HEAD
   "plugins": [
     "@typescript-eslint",
     "prettier"
@@ -31,6 +32,11 @@
     "@typescript-eslint/no-unused-vars": ["error", {
       "argsIgnorePattern": "_"
     }],
+=======
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+>>>>>>> 110070b3af89db9a459809cf0e5f7658610300f6
     "import/extensions": [
       "error",
       "ignorePackages",

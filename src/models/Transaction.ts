@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn, CreateDateColumn, UpdateDateColumn, UpdateQueryBuilder } from 'typeorm';
 
 import Category from './Category';
@@ -30,6 +31,25 @@ class Transaction {
 
   @UpdateDateColumn()
   updated_at: Date;
+=======
+import { uuid } from 'uuidv4';
+
+class Transaction {
+  id: string;
+
+  title: string;
+
+  value: number;
+
+  type: 'income' | 'outcome';
+
+  constructor({ title, value, type }: Omit<Transaction, 'id'>) {
+    this.id = uuid();
+    this.title = title;
+    this.value = value;
+    this.type = type;
+  }
+>>>>>>> 110070b3af89db9a459809cf0e5f7658610300f6
 }
 
 export default Transaction;
