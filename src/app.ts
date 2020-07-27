@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import 'reflect-metadata';
 import 'dotenv/config';
 
@@ -32,13 +31,4 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
   });
 });
 
-=======
-import express from 'express';
-import routes from './routes';
-
-const app = express();
-app.use(express.json());
-app.use(routes);
-
->>>>>>> 110070b3af89db9a459809cf0e5f7658610300f6
 export default app;

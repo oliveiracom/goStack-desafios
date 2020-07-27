@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .idea/
 .vscode/
 node_modules/
@@ -7,6 +6,3 @@ temp/
 
 tmp/*
 !tmp/.gitkeep
-=======
-node_modules
->>>>>>> 110070b3af89db9a459809cf0e5f7658610300f6

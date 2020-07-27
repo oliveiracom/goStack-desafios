@@ -9,7 +9,7 @@ export default class AddCategorieIdToTransactions1595794782573 implements Migrat
                 name: 'category_id',
                 type: 'uuid',
                 isNullable: true
-            })
+            }),
         );
 
         await queryRunner.createForeignKey(
@@ -21,14 +21,14 @@ export default class AddCategorieIdToTransactions1595794782573 implements Migrat
                 name: 'TransactionCategory',
                 onUpdate: 'CASCADE',
                 onDelete: 'SET NULL'
-            })
-        )
+            }),
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.dropForeignKey ('transactions', 'TransactionCategory');
+        await queryRunner.dropForeignKey('transactions', 'TransactionCategory');
 
-        await queryRunner.dropColumn ('transactions', 'category_id');
+        await queryRunner.dropColumn('transactions', 'category_id');
     }
 
 }
