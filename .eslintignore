@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 **/*.js
 node_modules
 build
+=======
+/*.js
+node_modules
+dist
+>>>>>>> a71f41d6bc1d20f89efa8e24fe844378555e4f62
